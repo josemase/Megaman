@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/mi_estilo.uss?fileID=7433441132597879392&amp;guid=a736f4ee3864ee9418317a9d24793b82&amp;type=3#mi_estilo" />
+    <ui:VisualElement name="Panel" style="height: 100%; width: 100%; justify-content: center; align-items: center; -unity-background-image-tint-color: rgb(10, 44, 231);">
+        <ui:VisualElement name="Menu" style="height: 437px; background-color: rgba(1, 221, 213, 0.66); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; width: 100%; justify-content: center; align-items: center; display: flex;">
+            <ui:Label text="Megaman" display-tooltip-when-elided="true" style="font-size: 30px; -unity-font-style: bold; color: rgb(0, 0, 0);" />
+            <ui:Button text="Jugar" display-tooltip-when-elided="true" name="start_btn" class="my-btn" style="color: rgb(255, 255, 255);" />
+            <ui:Button text="Nombres" display-tooltip-when-elided="true" name="msg_btn" class="my-btn" style="font-size: 28px; width: 65%; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; margin-top: 15px; color: rgb(255, 255, 255);" />
+            <ui:Label text="Juan Carlos Rubio " display-tooltip-when-elided="true" name="Juan" style="color: rgb(0, 0, 0); font-size: 25px; top: 344px; position: absolute; display: none; height: 28px; width: 253px; left: 222px;" />
+            <ui:Label text="Jose Fernando Martinez" display-tooltip-when-elided="true" name="Jose" style="color: rgb(0, 0, 0); font-size: 25px; top: 387px; position: absolute; display: none; height: 28px; width: 296px; left: 216px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

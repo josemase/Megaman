@@ -1,0 +1,23 @@
+.my-btn {
+    font-size: 28px;
+    width: 65%;
+    background-color: rgb(6, 19, 173);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+}
+
+.my-btn:hover {
+    font-size: 28px;
+    width: 65%;
+    background-color: rgb(130, 221, 207);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+    -unity-font-style: bold;
+    color: rgba(12, 10, 38, 255);
+}
